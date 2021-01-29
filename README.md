@@ -100,13 +100,14 @@ We are a global leader in research in the areas of artificial intelligence (AI) 
   * **Integrative healthcare research**
   
 
-|||---|||
-#### **Our address:**  
+
+**Our address:**  
 Campus Benjamin Franklin  
 Aßmannshauser Straße 4-6, 14197 Berlin  
 Site address: House 2, 2. OG  
 
-#### **Our contact information:**  
+**Our contact information:**  
 Phone: 0049 30 450 562 207  
 Fax: 0049 30 450 562 932  
-|||---|||
+
+<iframe src="https://oddh2.github.io/A-checklist-for-dental-AI-studies.github.io/" height="200px" width="400px"></iframe>
