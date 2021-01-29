@@ -1,6 +1,6 @@
 ## Charite
 
-* [Home](/Readme.md)
+* [Home](/README.md)
 
 
 [logo]: /images/charite.jpg
