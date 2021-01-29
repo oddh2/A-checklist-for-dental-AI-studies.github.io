@@ -99,12 +99,14 @@ We are a global leader in research in the areas of artificial intelligence (AI) 
   * **Artificial intelligence in dentistry**
   * **Integrative healthcare research**
   
-  
-**Our address:**  
+
+|||---|||
+#### **Our address:**  
 Campus Benjamin Franklin  
 Aßmannshauser Straße 4-6, 14197 Berlin  
 Site address: House 2, 2. OG  
 
-**Our contact information:**  
+#### **Our contact information:**  
 Phone: 0049 30 450 562 207  
 Fax: 0049 30 450 562 932  
+|||---|||
