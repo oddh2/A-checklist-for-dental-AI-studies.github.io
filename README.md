@@ -71,6 +71,8 @@ generalizability and robustness should be discussed. Necessary comparison with o
   
   
 [**Prof. Dr. Falk Schwendicke**](https://abteilung-oddzv.charite.de/en/about_the_department/team/detail_page_univ_prof_dr_med_dent_schwendicke/)  
+![](/images/FS.jpg)  
+
 Oral   Diagnostics,   Digital   Health   and   Health   Services   Research  
 Aßmannshauser Str. 4-6  
 Charité –Universitätsmedizin Berlin  
