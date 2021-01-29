@@ -110,4 +110,4 @@ Site address: House 2, 2. OG
 Phone: 0049 30 450 562 207  
 Fax: 0049 30 450 562 932  
 
-<iframe src="https://oddh2.github.io/A-checklist-for-dental-AI-studies.github.io/" height="200px" width="400px"></iframe>
+<iframe src="https://oddh2.github.io/A-checklist-for-dental-AI-studies.github.io/" height="200px" width="1000px"></iframe>
