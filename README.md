@@ -67,8 +67,7 @@ generalizability and robustness should be discussed. Necessary comparison with o
 
 
 ---
-### Department  of  Oral  Diagnostics,  Digital  Health  and  Health  Services  Research,  Charité –Universitätsmedizin Berlin, Berlin, Germany
-  [Website](https://abteilung-oddzv.charite.de/en/)  
+### [Department  of  Oral  Diagnostics,  Digital  Health  and  Health  Services  Research,  Charité –Universitätsmedizin Berlin, Berlin, Germany](https://abteilung-oddzv.charite.de/en/)  
   
   
 [**Prof. Dr. Falk Schwendicke**](https://abteilung-oddzv.charite.de/en/about_the_department/team/detail_page_univ_prof_dr_med_dent_schwendicke/)  
@@ -83,7 +82,7 @@ Email: falk.schwendicke@charite.de
   
   
   
-Our department and clinic was founded on April 1, 2020 and is unique worldwide.  
+Our department and [clinic](https://abteilung-oddzv.charite.de/en/services/) was founded on April 1, 2020 and is unique worldwide.  
 
 We are the first point of contact for all patients who visit the CharitéCentrum3 for dental, oral and maxillofacial medicine - both during the day and at night. We cover the entire spectrum of clinical dentistry. Together with you, we will develop a therapy plan, which will be carried out by specialized colleagues from our or other departments, if necessary.  
 
@@ -91,9 +90,9 @@ We offer an outpatient clinic for geriatric dentistry, where residents of nursin
 
 We are the contact for dental treatments during the night, on weekends and holidays. We are there for our patients throughout the day, including interdisciplinary dental trauma consultations. Please call us if you have any questions or would like to make an appointment.  
 
-We train future dentists in the fields of diagnostics and therapy planning, pain and acute dentistry, radiology, dental traumatology and other imaging in dentistry, digital dentistry as well as health care research, epidemiology, evidence-based medicine and health economics. The concentration of these subject areas in an independent department is unique in Germany.  
+We [train future dentists](https://abteilung-oddzv.charite.de/en/study_and_teaching/) in the fields of diagnostics and therapy planning, pain and acute dentistry, radiology, dental traumatology and other imaging in dentistry, digital dentistry as well as health care research, epidemiology, evidence-based medicine and health economics. The concentration of these subject areas in an independent department is unique in Germany.  
 
-We are a global leader in research in the areas of artificial intelligence (AI) in dentistry, data-supported precision dentistry and integrative care research. We work closely with national partners of worldwide renown and reputation as well as with various other national and international committees. Detailed information can be found in our research section.  
+We are a global leader in research in the areas of artificial intelligence (AI) in dentistry, data-supported precision dentistry and integrative care research. We work closely with national partners of worldwide renown and reputation as well as with various other national and international committees. Detailed information can be found in [our research section](https://abteilung-oddzv.charite.de/en/research/).  
 
 **It is our aim to be your first contact for**
 
