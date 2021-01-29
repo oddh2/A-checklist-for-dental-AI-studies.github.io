@@ -4,7 +4,7 @@ We first provide more general recommendations towards conceiving and planning st
 
 ### *Planning and conducting*
 
-1. Study Goal: Researchers should early on define the relevance, scope and meaning of the AI application they aim to develop or validate. The pitfalls in methodology when using
+1. **Study Goal**: Researchers should early on define the relevance, scope and meaning of the AI application they aim to develop or validate. The pitfalls in methodology when using
 AI methods, especially towards data and technical requirements (see below), should be kept in mind early on. Also, the end-users (patients or dentists) should be considered
 when designing the study, as should be regulatory requirements, ethics and data protection.
 2. Study Focus: A clear focus on the study aims should be defined, e.g. what goal does the research have (developing a new or validating an existing model, diagnostics or
