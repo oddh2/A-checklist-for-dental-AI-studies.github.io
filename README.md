@@ -71,7 +71,7 @@ generalizability and robustness should be discussed. Necessary comparison with o
   [Website](https://abteilung-oddzv.charite.de/en/)  
   
   
-**Prof. Dr. Falk Schwendicke**  
+[**Prof. Dr. Falk Schwendicke**](https://abteilung-oddzv.charite.de/en/about_the_department/team/detail_page_univ_prof_dr_med_dent_schwendicke/)  
 Oral   Diagnostics,   Digital   Health   and   Health   Services   Research  
 Aßmannshauser Str. 4-6  
 Charité –Universitätsmedizin Berlin  
@@ -95,17 +95,17 @@ We train future dentists in the fields of diagnostics and therapy planning, pain
 
 We are a global leader in research in the areas of artificial intelligence (AI) in dentistry, data-supported precision dentistry and integrative care research. We work closely with national partners of worldwide renown and reputation as well as with various other national and international committees. Detailed information can be found in our research section.  
 
-It is our aim to be your first contact for
+**It is our aim to be your first contact for**
 
-  * Artificial intelligence in dentistry
-  * Integrative healthcare research
+  * **Artificial intelligence in dentistry**
+  * **Integrative healthcare research**
   
   
-Our address:  
+**Our address:**  
 Campus Benjamin Franklin  
 Aßmannshauser Straße 4-6, 14197 Berlin  
 Site address: House 2, 2. OG  
 
-Our contact information:  
+**Our contact information:**  
 Phone: 0049 30 450 562 207  
 Fax: 0049 30 450 562 932  
