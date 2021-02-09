@@ -1,7 +1,7 @@
 # Artificial intelligence in dental research: A checklist for authors and reviewers  
  
 
-<img src="images/wordcloud2.JPG" width="1000">  
+<img src="images/wordcloud2.JPG" raw=true width="1000">  
   
 We first provide more general recommendations towards conceiving and planning studies using AI for dental research. We then lay outmore detailed and specific guidance on reporting such studies. Notably, authors should consider these as well during the early stages for their research in the sense of “backwards” planning, helping them to make their study design more relevant, robust, implementable and publishable eventually.  
 
