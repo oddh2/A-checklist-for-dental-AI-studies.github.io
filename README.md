@@ -4,7 +4,7 @@
 <img src="images/wordcloud_2.JPG" raw=true width="1000"> 
 
   
-> We first provide more general recommendations towards conceiving and planning studies using AI for dental research. We then lay outmore detailed and specific guidance on reporting such studies. Notably, authors should consider these as well during the early stages for their research in the sense of “backwards” planning, helping them to make their study design more relevant, robust, implementable and publishable eventually.  
+> We first provide more general recommendations towards conceiving and planning studies using AI for dental research. We then lay out more detailed and specific guidance on reporting such studies. Notably, authors should consider these as well during the early stages for their research in the sense of “backwards” planning, helping them to make their study design more relevant, robust, implementable and publishable eventually.  
 
 ## **Planning and conducting**
 
@@ -20,8 +20,7 @@ A major aspect when planning AI studies is data; especially in dentistry, datase
 underrepresented, which makes training but also evaluation of AI models more difficult and needs to be addressed, see below). Datasets should be as heterogenous as possible for the model to be as generalizable as possible, and this should be planned to be demonstrated (see below). Generally, researchers should consider the target population on which they envisage their model to be applied on, and critically compare the dataset they plan to train and to test their model on against that population.
 
 ### 4. Study Aim
-Researchers should have a clear idea if their study is exploratory or hypothesis-testing: Clearly, there is also a need for exploratory studies, which generate
-hypotheses and open up new avenues, while a full sample size estimation is required when wanting to demonstrate any value of the model with statistical certainty.
+Researchers should have a clear idea if their study is exploratory or hypothesis-testing: Clearly, there is also a need for exploratory studies, which generate hypotheses and open up new avenues, while a full sample size estimation is required when wanting to demonstrate any value of the model with statistical certainty.
 
 ### 5. Reference Test
 A major difficulty is the construction of the reference test (i.e. the labels of the data to be learnt and tested on) in the absence of a hard “gold standard” (e.g. histological assessment). Instead, dental researchers are oftentimes forced to use multiple human annotators to independently label the data, thereby generating a “fuzzy” gold standard. Depending on the study’s aim, a clear case definition and calibration of annotators might be desired or not. The construction of the single label from this fuzzy data needs further considerations, e.g. researchers may use the majority votes. Ideally, if multiple data sources are available, they may be used to triangulate. Last, noise and uncertainty may be to a certain extend acceptable in the training dataset, but hurtful and possible lead to bias in the test dataset.
@@ -37,9 +36,7 @@ When testing the model, it is most relevant to not only report on validation dat
 Researchers should, before engaging into AI research, consider the computational resources, which are a major constrain especially when dealing with image data, large datasets or complex models. Researchers should be aware that the available computational resources may restrict the resolution of the images that are used for training, with features that are clearly identifiable at the original scale possibly being lost during preprocessing. Further, iterative hyperparameter tuning (see below) is computationally expensive and time-consuming, which should be considered, too.
 
 ### 9. Comparator
-The model should be compared against relevant alternatives. These could be an independent group of dental examiners, possibly of different experience (to reflect the usefulness of the model in different groups) or against other accepted imagery or clinical tests. For such comparisons, relevant outcomes and outcome metrics should be used. Here, it is important to bridge the gap between dental research and technical disciplines. While the former often reports on accuracy metrics (which are not all useful
-in imbalanced datasets, see below), the latter considers F1-score or other metrics (which are more robust, but not interpretable from a medical perspective). This aspect becomes
-even more important when applying object detection or segmentation models. Commonly applied metrics such as (weighted) average precision or intersection over union are very domain specific so that concepts to convey them into the medical/dental research domain are warranted [1]. Ideally, an outcome set which reflects not only on the model’s accuracy, but also further aspects should be considered, again keeping in mind who will employ, commission, receive or pay for the application which may be developed using the model.
+The model should be compared against relevant alternatives. These could be an independent group of dental examiners, possibly of different experience (to reflect the usefulness of the model in different groups) or against other accepted imagery or clinical tests. For such comparisons, relevant outcomes and outcome metrics should be used. Here, it is important to bridge the gap between dental research and technical disciplines. While the former often reports on accuracy metrics (which are not all useful in imbalanced datasets, see below), the latter considers F1-score or other metrics (which are more robust, but not interpretable from a medical perspective). This aspect becomes even more important when applying object detection or segmentation models. Commonly applied metrics such as (weighted) average precision or intersection over union are very domain specific so that concepts to convey them into the medical/dental research domain are warranted [1]. Ideally, an outcome set which reflects not only on the model’s accuracy, but also further aspects should be considered, again keeping in mind who will employ, commission, receive or pay for the application which may be developed using the model.
 
 ## **Reporting**
 
@@ -50,9 +47,7 @@ The title should clearly lay out that any kind of AI (deep learning, shallow mac
 
 ### 11. Abstract
 The abstract should present a structured summary of the study’s aim, methods, results, and conclusion. The abstract should stand for itself and should be
-understandable without reading the main manuscript. That also means that the used data (main characteristics, source of origin, type of sampling, partitioning into training,
-validation and testing datasets), the model and outcome metrics and the statistical analysis that was performed should be provided. The results section should provide full
-metrics, including measures of variance, for the primary outcome on the test (not only the training) dataset, and allow for any comparisons against alternatives.
+understandable without reading the main manuscript. That also means that the used data (main characteristics, source of origin, type of sampling, partitioning into training, validation and testing datasets), the model and outcome metrics and the statistical analysis that was performed should be provided. The results section should provide full metrics, including measures of variance, for the primary outcome on the test (not only the training) dataset, and allow for any comparisons against alternatives.
 
 ### 12. Introduction
 The introduction should briefly sum up the dental background of the study, if there is one, and deduce the need for an AI solution. It should be made clear if there is a clinical, a research or a teaching problem. The introduction should then lay out the achievements and limitations made in this direction so far to provide a rationale for the study, its goals, and anticipated impact. It should be made clear in this section if the problem is of diagnostic or prognostic nature and if the study aims to explore new AI applications or validate existing ones. The former study type will be different in its setup from the latter type, where finally the introduction will provide one or more hypotheses to be tested and for which a sample size estimation (for the test dataset) will be needed (see above and below).
@@ -93,19 +88,18 @@ Describe the training procedures in sufficient detail so that another researcher
 learning was applied, state which model parameters/layers were frozen and the portion of the training (e.g. number of epochs) that was affected.
 
 ### 19. 
-Describe the method and model metric to select the final model and evaluate it against the test set.
-If using an ensemble of models, describe each model in accordance with guidelines outlined above. Describe how the component models were weighted and/or combined.
+Describe the method and model metric to select the final model and evaluate it against the test set. If using an ensemble of models, describe each model in accordance with guidelines outlined above. Describe how the component models were weighted and/or combined.
 
 ### 20. Evaluation
 Researchers should describe the outcome and outcome metric(s) used to measure the model’s performance, defining the primary outcome and metric and relating it to the outlined clinical/teaching/research problem. Ideally, they should not only report on accuracy, but consider outcomes relevant for decision making, applicability etc., as well. It should be made clear how any superiority over the current standards or alternatives is demonstrated (or not) and, if available, how the developmental and application costs may be justified thereby. The involvement of the public and patients should be considered when discussing outcome in the absence of any core outcome set.
 
-### 21. 
-Lay out out how uncertainty of the **performance metrics** values was assessed, how any comparisons between groups were done and how robust these comparisons were, for
+### 21.Performance metrics
+Lay out out how uncertainty of the performance metrics values was assessed, how any comparisons between groups were done and how robust these comparisons were, for
 example by subgroup analyses of tooth groups, dentitions, patient risk groups, or data sources (from different centers or machinery). If comparing the AI model against
 individual dentists, the dentists’ characteristics should be provided here, too.
 
-### 22. 
-If feasible, researchers should lay out how the **explainability, trustworthiness, and transparency of the model** was assessed. There are an increasing number of applications towards “explainable AI” available [4]. This is also increasingly seen as a regulatory requirement for any kind of clinical application later on.
+### 22. Explainability, trustworthiness, and transparency
+If feasible, researchers should lay out how the explainability, trustworthiness, and transparency of the model was assessed. There are an increasing number of applications towards “explainable AI” available [4]. This is also increasingly seen as a regulatory requirement for any kind of clinical application later on.
 
 ###  23. Results
 The flow of data, including those in- and excluded, and data partitions into training, validation and test dataset should be clarified; a flowchart may be helpful. The sample should be characterized demographically, but also towards the prevalence of the condition of interest and the population’s risk profile to gauge its representativeness for the target population. If subgroups of severity have been defined, these should be characterized, too.
@@ -132,7 +126,7 @@ Here, recommendations towards authorship and registration according to the Inter
 5. T. Saito, M. Rehmsmeier, The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets, PloS one 10(3) (2015) e0118432.
 
 ---
-### [Department  of  Oral  Diagnostics,  Digital  Health  and  Health  Services  Research,  Charité –Universitätsmedizin Berlin, Berlin, Germany](https://abteilung-oddzv.charite.de/en/)  
+### [Department  of  Oral  Diagnostics,  Digital  Health  and  Health  Services  Research,  Charité – Universitätsmedizin Berlin, Berlin, Germany](https://abteilung-oddzv.charite.de/en/)  
 <img src="images/charite.jpg" width="300">
   
 [**Prof. Dr. Falk Schwendicke**](https://abteilung-oddzv.charite.de/en/about_the_department/team/detail_page_univ_prof_dr_med_dent_schwendicke/)  
@@ -140,7 +134,7 @@ Here, recommendations towards authorship and registration according to the Inter
 
 Oral   Diagnostics,   Digital   Health   and   Health   Services   Research  
 Aßmannshauser Str. 4-6  
-Charité –Universitätsmedizin Berlin  
+Charité – Universitätsmedizin Berlin  
 14197 Berlin  
 Germany  
 Phone: 0049 30 450 662 556  
@@ -153,7 +147,7 @@ Our department and [clinic](https://abteilung-oddzv.charite.de/en/services/) was
 
 We are the first point of contact for all patients who visit the CharitéCentrum3 for dental, oral and maxillofacial medicine - both during the day and at night. We cover the entire spectrum of clinical dentistry. Together with you, we will develop a therapy plan, which will be carried out by specialized colleagues from our or other departments, if necessary.  
 
-We offer an outpatient clinic for geriatric dentistry, where residents of nursing homes can visit us or be transported to us for treatment under appropriately specialised conditions (including infection control).  
+We offer an outpatient clinic for geriatric dentistry, where residents of nursing homes can visit us or be transported to us for treatment under appropriately specialized conditions (including infection control).  
 
 We are the contact for dental treatments during the night, on weekends and holidays. We are there for our patients throughout the day, including interdisciplinary dental trauma consultations. Please call us if you have any questions or would like to make an appointment.  
 
@@ -171,7 +165,7 @@ We are a global leader in research in the areas of artificial intelligence (AI) 
 **Our address:**  
 Campus Benjamin Franklin  
 Aßmannshauser Straße 4-6, 14197 Berlin  
-Site address: House 2, 2. OG  
+Site address: House 2, 2<sup>nd</sup> floor  
 
 **Our contact information:**  
 Phone: 0049 30 450 562 207  
