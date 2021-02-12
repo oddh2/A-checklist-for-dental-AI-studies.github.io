@@ -87,13 +87,13 @@ A complete and detailed description of the model is warranted, allowing to repli
 Describe the training procedures in sufficient detail so that another researcher could reproduce the training process. Describe which data augmentation techniques were applied. State how the training process was monitored, and which criteria were used for stopping the training. List the values of the hyperparameters, describe the hyperparameter search strategy and provide the ranges of values that were considered. For neural networks, at least the learning rate schedule, optimization method, batch size, dropout rates, regularization parameters (if any) and number of epochs should be provided. Discuss what objective function was applied and why it was selected. If transfer
 learning was applied, state which model parameters/layers were frozen and the portion of the training (e.g. number of epochs) that was affected.
 
-### 19. 
+### 19. Metric
 Describe the method and model metric to select the final model and evaluate it against the test set. If using an ensemble of models, describe each model in accordance with guidelines outlined above. Describe how the component models were weighted and/or combined.
 
 ### 20. Evaluation
 Researchers should describe the outcome and outcome metric(s) used to measure the model’s performance, defining the primary outcome and metric and relating it to the outlined clinical/teaching/research problem. Ideally, they should not only report on accuracy, but consider outcomes relevant for decision making, applicability etc., as well. It should be made clear how any superiority over the current standards or alternatives is demonstrated (or not) and, if available, how the developmental and application costs may be justified thereby. The involvement of the public and patients should be considered when discussing outcome in the absence of any core outcome set.
 
-### 21.Performance metrics
+### 21. Uncertainty and robustness of performance metrics
 Lay out out how uncertainty of the performance metrics values was assessed, how any comparisons between groups were done and how robust these comparisons were, for
 example by subgroup analyses of tooth groups, dentitions, patient risk groups, or data sources (from different centers or machinery). If comparing the AI model against
 individual dentists, the dentists’ characteristics should be provided here, too.
