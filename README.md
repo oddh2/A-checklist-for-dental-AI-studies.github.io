@@ -1,4 +1,4 @@
-
+# [Artificial intelligence in dental research A checklist for authors and reviewers](https://github.com/oddh2/A-checklist-for-dental-AI-studies.github.io)
  
 
 <img src="images/wordcloud_2.JPG" raw=true width="1000"> 
