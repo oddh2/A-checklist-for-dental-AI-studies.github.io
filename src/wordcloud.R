@@ -17,7 +17,6 @@ library(wordcloud2)
 # The text can be pasted in a .txt file and loaded into R
 text<- read_file("text.txt")
 
-
  
 #  OBJECTIVE 2: Housekeeping of text
 # Create a corpus  
