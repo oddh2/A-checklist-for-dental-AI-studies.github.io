@@ -15,7 +15,7 @@ library(wordcloud2)
 
 # OBJECTIVE 1: Read in the text
 # The text can be pasted in a .txt file and loaded into R
-text<- read_file("text.txt")
+text<- read_file("../data/text.txt")
 
  
 #  OBJECTIVE 2: Housekeeping of text
