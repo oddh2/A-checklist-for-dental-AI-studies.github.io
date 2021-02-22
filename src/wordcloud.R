@@ -23,9 +23,7 @@ text<- read_file("text.txt")
 docs <- Corpus(VectorSource(text))
 
 # Clean the text of punctuations, common words, etc.
-docs <- docs %>%  tm_map(removeNumbers) %>%  tm_map(removePunctuation) %>%  tm_map(stripWhitespace)
-docs <- tm_map(docs, content_transformer(tolower))
-docs <- tm_map(docs, removeWords, stopwords("english"))
+docs <- docs %>% tm_map(removeNumbers) %>% tm_map(removePunctuation) %>% tm_map(stripWhitespace) %>% tm_map( content_transformer(tolower)) %>% tm_map(removeWords, stopwords("english"))
 
 # Create a document-term-matrix (dataframe containing each word in your first column and their frequency in the second column)
 dtm <- TermDocumentMatrix(docs) 
